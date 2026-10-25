@@ -1,0 +1,81 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f6; /* Gris très clair, professionnel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    border-top: 5px solid #1a3c5e; /* Une couleur de confiance (bleu foncé) */
+}
+
+h1 {
+    color: #1a3c5e;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.company {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    color: #333;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #e0e0e0;
+}
+
+.btn-primary {
+    background: #1a3c5e;
+    color: white;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background: #0f2a44;
+}
